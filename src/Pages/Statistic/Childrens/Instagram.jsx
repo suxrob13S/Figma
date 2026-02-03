@@ -1,9 +1,10 @@
 function Instagram(){
     return(
         <div>
-            Instagram
+            asdas
         </div>
     )
 }
+
 
 export default Instagram
