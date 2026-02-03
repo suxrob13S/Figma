@@ -20,15 +20,15 @@ function Reja() {
 
     return (
         <div className="w-full min-h-full">
-            {/* Header qismi - h-auto qilindi, mobilda matn sig'ishi uchun */}
+         
             <div className="w-full min-h-[72px] bg-white px-[24px] py-[20px] rounded-[16px] shadow-sm border border-gray-100 font-sans" >
                 <p className="text-black text-[20px] font-bold">Rejalashtirish</p>
             </div>
 
-            {/* Asosiy kontent - flex-col mobilda, flex-row lg ekranda */}
+           
             <div className="w-full flex flex-col lg:flex-row mt-3 gap-3">
                 
-                {/* Chap tomondagi Ijtimoiy tarmoqlar sideri */}
+              
                 <div className="w-full lg:w-[280px] shrink-0">
                     <div className="flex flex-col w-full h-full shadow-sm border rounded-2xl border-gray-100 font-sans bg-white px-4 py-4">
                         <div className="flex items-center justify-between gap-4 w-full px-[7px] py-[7px]">
@@ -47,7 +47,7 @@ function Reja() {
                     </div>
                 </div>
 
-                {/* O'ng tomondagi asosiy karta qismi */}
+                
                 <div className="flex-1 bg-white rounded-[16px] shadow-sm border border-gray-100 p-4 md:p-6">
                     <div className="flex justify-between items-center mb-6">
                         <h2 className="text-lg font-bold text-gray-800">Sizning guruh & kanallaringiz</h2>
@@ -56,7 +56,7 @@ function Reja() {
                         </button>
                     </div>
 
-                    {/* Grid: Mobilda 1 ta, planshetda 2 ta, katta ekranda 4 ta ustun */}
+                   
                     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 mb-8">
                         {bigCards.map((item, index) => (
                             <div key={index} className="border border-gray-100 rounded-xl p-5 flex flex-col items-center text-center relative hover:shadow-md transition-shadow">
@@ -80,7 +80,7 @@ function Reja() {
                         <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">v2</span>
                     </div>
 
-                    {/* Pastki grid ham responsive qilindi */}
+               
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                         {smallCards.map((item, index) => (
                             <div key={index} className="border border-gray-100 rounded-xl p-3 flex items-center gap-3 relative hover:shadow-sm overflow-hidden">
