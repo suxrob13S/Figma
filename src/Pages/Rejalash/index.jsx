@@ -115,7 +115,7 @@
 // export default Reja;
 import { Link } from "react-router-dom";
 import { RejalashSiderItems } from "./RejalashSiderItems";
-import { Plus, MoreHorizontal, Send } from 'lucide-react';
+import {  MoreHorizontal, Send } from 'lucide-react';
 
 function Reja() {
     const bigCards = [
