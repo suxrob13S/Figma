@@ -21,12 +21,12 @@ function Reja() {
     return (
         <div className="w-full min-h-full">
          
-            <div className="w-full min-h-[72px] bg-white px-[24px] py-[20px] rounded-[16px] shadow-sm border border-gray-100 font-sans" >
+            <div className="w-full h-[72px] bg-white px-[24px] py-[20px] rounded-[16px] shadow-sm border border-gray-100 font-sans" >
                 <p className="text-black text-[20px] font-bold">Rejalashtirish</p>
             </div>
 
            
-            <div className="w-full flex flex-col lg:flex-row mt-3 gap-3">
+            <div className="w-full h-[90%] flex flex-col lg:flex-row mt-3 gap-3">
                 
               
                 <div className="w-full lg:w-[280px] shrink-0">
